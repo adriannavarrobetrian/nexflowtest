@@ -1,7 +1,7 @@
 #!/usr/bin/env nextflow
 
 process example {
-    publishDir "s3:///adrian-navarro-test"
+    publishDir "s3:///adrian-navarro-test/test"
 
     input:
     val sample
